@@ -1,6 +1,4 @@
 /*jshint bitwise: false*/
-(function() {
-
   window.Discourse.MessageBus = (function() {
     /* http://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid-in-javascript
     */
@@ -156,4 +154,4 @@
     };
   })();
 
-}).call(this);
+

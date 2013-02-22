@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.UserPrivateMessagesView = Discourse.View.extend({
     templateName: 'user/private_messages',
     selectCurrent: function(evt) {
@@ -18,4 +16,4 @@
     }
   });
 
-}).call(this);
+

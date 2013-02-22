@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Our data model for representing an email log.
 
@@ -35,4 +33,4 @@
     }
   });
 
-}).call(this);
+

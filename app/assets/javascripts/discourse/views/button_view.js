@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.ButtonView = Discourse.View.extend({
     tagName: 'button',
     classNameBindings: [':btn', ':standard', 'dropDownToggle'],
@@ -18,4 +16,4 @@
     }
   });
 
-}).call(this);
+

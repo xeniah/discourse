@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.TopicAdminMenuView = Discourse.View.extend({
     willDestroyElement: function() {
       return jQuery('html').off('mouseup.discourse-topic-admin-menu');
@@ -16,4 +14,4 @@
     }
   });
 
-}).call(this);
+

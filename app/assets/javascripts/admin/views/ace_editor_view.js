@@ -1,6 +1,4 @@
 /*global ace:true */
-(function() {
-
   /**
     A view that wraps the ACE editor (http://ace.ajax.org/)
 
@@ -63,4 +61,4 @@
     }
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ActivityFilterView = Discourse.View.extend({
     tagName: 'li',
     classNameBindings: ['active'],
@@ -28,4 +26,4 @@
     }
   });
 
-}).call(this);
+

@@ -1,4 +1,4 @@
-(function() {
+
   var cache, cacheTime, cacheTopicId, debouncedSearch, doSearch;
 
   cache = {};
@@ -73,4 +73,4 @@
     }
   };
 
-}).call(this);
+

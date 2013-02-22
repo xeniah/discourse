@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.PreferencesEmailController = Ember.ObjectController.extend(Discourse.Presence, {
     taken: false,
     saving: false,
@@ -45,4 +43,4 @@
     }
   });
 
-}).call(this);
+

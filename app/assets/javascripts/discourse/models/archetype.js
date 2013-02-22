@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.Archetype = Discourse.Model.extend({
     hasOptions: (function() {
       if (!this.get('options')) {
@@ -12,4 +10,4 @@
     }).property('id')
   });
 
-}).call(this);
+

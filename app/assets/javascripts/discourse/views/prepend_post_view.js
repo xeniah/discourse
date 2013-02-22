@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.PrependPostView = Em.ContainerView.extend({
     init: function() {
       this._super();
@@ -7,4 +5,4 @@
     }
   });
 
-}).call(this);
+

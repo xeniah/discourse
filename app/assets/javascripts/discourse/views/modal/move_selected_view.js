@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.MoveSelectedView = Discourse.ModalBodyView.extend({
     templateName: 'modal/move_selected',
     title: Em.String.i18n('topic.move_selected.title'),
@@ -47,4 +45,4 @@
     }
   });
 
-}).call(this);
+

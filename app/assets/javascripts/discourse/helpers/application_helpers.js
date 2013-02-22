@@ -1,7 +1,5 @@
 /*global humaneDate:true */
 
-(function() {
-
   Handlebars.registerHelper('breakUp', function(property, options) {
     var prop, result, tokens;
     prop = Ember.Handlebars.get(this, property, options);
@@ -187,4 +185,4 @@
     return Em.String.i18n('you');
   });
 
-}).call(this);
+

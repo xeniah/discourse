@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.Category = Discourse.Model.extend({
     url: (function() {
       return "/category/" + (this.get('slug'));
@@ -42,4 +40,4 @@
     }
   });
 
-}).call(this);
+

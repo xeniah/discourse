@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.PreferencesEmailView = Discourse.View.extend({
     templateName: 'user/email',
     classNames: ['user-preferences'],
@@ -8,4 +6,4 @@
     }
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.UserActivityController = Ember.ObjectController.extend({
     needs: ['composer'],
     kickOffPrivateMessage: (function() {
@@ -17,4 +15,4 @@
     }
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.TopicRoute = Discourse.Route.extend({
     model: function(params) {
       var currentModel, _ref;
@@ -31,4 +29,4 @@
     }
   });
 
-}).call(this);
+

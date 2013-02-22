@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.Onebox = (function() {
     /* for now it only stores in a var, in future we can change it so it uses localStorage,
     */
@@ -80,4 +78,4 @@
     };
   })();
 
-}).call(this);
+

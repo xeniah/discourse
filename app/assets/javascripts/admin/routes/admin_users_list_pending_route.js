@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Handles the route that lists pending users.
 
@@ -14,4 +12,4 @@
     }   
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.HistoryView = Discourse.View.extend({
     templateName: 'history',
     title: 'History',
@@ -39,4 +37,4 @@
     }
   });
 
-}).call(this);
+

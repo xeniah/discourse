@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.UserAction = Discourse.Model.extend({
     postUrl: (function() {
       return Discourse.Utilities.postUrl(this.get('slug'), this.get('topic_id'), this.get('post_number'));
@@ -136,4 +134,4 @@
     })()
   });
 
-}).call(this);
+

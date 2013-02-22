@@ -3,8 +3,6 @@
 */
 
 
-(function() {
-
   window.Discourse.ClickTrack = {
     /* Pass the event of the click here and we'll do the magic!
     */
@@ -105,4 +103,4 @@
     }
   };
 
-}).call(this);
+

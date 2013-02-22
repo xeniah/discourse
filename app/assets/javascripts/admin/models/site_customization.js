@@ -1,4 +1,4 @@
-(function() {
+
   var SiteCustomizations;
 
   /**
@@ -114,4 +114,4 @@
     }
   });
 
-}).call(this);
+

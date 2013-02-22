@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.TopicView = Discourse.View.extend(Discourse.Scrolling, {
     templateName: 'topic',
     topicBinding: 'controller.content',
@@ -547,4 +545,4 @@
     }
   });
 
-}).call(this);
+

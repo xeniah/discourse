@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.DropdownButtonView = Discourse.View.extend({
     classNames: ['btn-group'],
     attributeBindings: ['data-not-implemented'],
@@ -44,4 +42,4 @@
     }
   });
 
-}).call(this);
+

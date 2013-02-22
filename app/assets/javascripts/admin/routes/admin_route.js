@@ -1,5 +1,3 @@
-(function() {
-
   /**
     The base admin route
 
@@ -14,4 +12,4 @@
     }
   });
 
-}).call(this);
+

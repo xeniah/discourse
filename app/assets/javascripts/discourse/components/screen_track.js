@@ -7,8 +7,6 @@
 */
 
 
-(function() {
-
   window.Discourse.ScreenTrack = Ember.Object.extend({
     /* Don't send events if we haven't scrolled in a long time
     */
@@ -166,4 +164,4 @@
     }
   });
 
-}).call(this);
+

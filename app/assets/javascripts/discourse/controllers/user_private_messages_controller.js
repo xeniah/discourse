@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.UserPrivateMessagesController = Ember.ObjectController.extend({
     editPreferences: function() {
       return Discourse.routeTo("/users/" + (this.get('content.username_lower')) + "/preferences");
@@ -15,4 +13,4 @@
     }
   });
 
-}).call(this);
+

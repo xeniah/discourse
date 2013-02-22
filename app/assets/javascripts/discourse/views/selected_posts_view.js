@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.SelectedPostsView = Discourse.View.extend({
     elementId: 'selected-posts',
     templateName: 'selected_posts',
@@ -12,4 +10,4 @@
     }).property('controller.multiSelect')
   });
 
-}).call(this);
+

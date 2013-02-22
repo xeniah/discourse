@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ParticipantView = Discourse.View.extend({
     templateName: 'participant',
     toggled: (function() {
@@ -7,4 +5,4 @@
     }).property('controller.userFilters.[]')
   });
 
-}).call(this);
+

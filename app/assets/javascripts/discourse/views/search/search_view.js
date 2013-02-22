@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.SearchView = Discourse.View.extend({
     tagName: 'div',
     classNames: ['d-dropdown'],
@@ -146,4 +144,4 @@
     }
   });
 
-}).call(this);
+

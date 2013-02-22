@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.User = Discourse.Model.extend({
     avatarLarge: (function() {
       return Discourse.Utilities.avatarUrl(this.get('username'), 'large', this.get('avatar_template'));
@@ -308,4 +306,4 @@
     }
   });
 
-}).call(this);
+

@@ -3,8 +3,6 @@
 */
 
 
-(function() {
-
   (function($) {
     var div, endDrag, grip, lastMousePos, min, mousePosition, originalDivHeight, originalPos, performDrag, startDrag, wrappedEndDrag, wrappedPerformDrag;
     div = void 0;
@@ -89,4 +87,4 @@
     return $.fn.DivResizer;
   })(jQuery);
 
-}).call(this);
+

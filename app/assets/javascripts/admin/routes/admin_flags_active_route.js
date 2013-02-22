@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Handles routes related to viewing active flags.
 
@@ -22,4 +20,4 @@
 
   });
 
-}).call(this);
+

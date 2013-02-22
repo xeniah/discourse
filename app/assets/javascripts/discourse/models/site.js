@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.Site = Discourse.Model.extend({
 
     notificationLookup: (function() {
@@ -57,4 +55,4 @@
     }
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.Post = Discourse.Model.extend({
     /* Url to this post
     */
@@ -367,4 +365,4 @@
     }
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.PreferencesUsernameController = Ember.ObjectController.extend(Discourse.Presence, {
     taken: false,
     saving: false,
@@ -68,4 +66,4 @@
     }
   });
 
-}).call(this);
+

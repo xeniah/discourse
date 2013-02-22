@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.InviteModalView = Discourse.ModalBodyView.extend({
     templateName: 'modal/invite',
     title: Em.String.i18n('topic.invite_reply.title'),
@@ -55,4 +53,4 @@
     }
   });
 
-}).call(this);
+

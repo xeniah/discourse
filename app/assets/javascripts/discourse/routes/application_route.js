@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ApplicationRoute = Discourse.Route.extend({
     setupController: function(controller) {
       var currentUser;
@@ -11,4 +9,4 @@
     }
   });
 
-}).call(this);
+

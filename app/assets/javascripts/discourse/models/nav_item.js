@@ -3,7 +3,7 @@
 */
 
 
-(function() {
+
   var validAnon, validNavNames;
 
   validNavNames = ['read', 'popular', 'categories', 'favorited', 'category', 'unread', 'new', 'posted'];
@@ -69,4 +69,4 @@
     }
   });
 
-}).call(this);
+

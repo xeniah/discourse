@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.TopicExtraInfoView = Ember.ContainerView.extend({
     classNameBindings: [':extra-info-wrapper', 'controller.showExtraInfo'],
     childViews: ['extraInfo'],
@@ -13,4 +11,4 @@
     })
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.OptionBooleanView = Discourse.View.extend({
     classNames: ['archetype-option'],
     composerControllerBinding: 'Discourse.router.composerController',
@@ -16,4 +14,4 @@
     }
   });
 
-}).call(this);
+

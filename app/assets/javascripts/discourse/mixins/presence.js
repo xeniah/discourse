@@ -1,5 +1,3 @@
-(function() {
-
   /**
     This mixin provides `blank` and `present` to determine whether properties are 
     there, accounting for more cases than just null and undefined.
@@ -45,4 +43,4 @@
     }
   });
 
-}).call(this);
+

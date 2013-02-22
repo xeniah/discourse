@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.TopicBestOfRoute = Discourse.Route.extend({
     setupController: function(controller, params) {
       var topicController;
@@ -13,4 +11,4 @@
     }
   });
 
-}).call(this);
+

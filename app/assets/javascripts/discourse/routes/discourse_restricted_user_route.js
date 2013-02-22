@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.RestrictedUserRoute = Discourse.Route.extend({
     enter: function(router, context) {
       var user;
@@ -13,4 +11,4 @@
     }
   });
 
-}).call(this);
+

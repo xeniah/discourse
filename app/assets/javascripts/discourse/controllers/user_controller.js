@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.UserController = Ember.ObjectController.extend({
     viewingSelf: (function() {
       return this.get('content.username') === Discourse.get('currentUser.username');
@@ -9,4 +7,4 @@
     }).property('viewingSelf', 'Discourse.currentUser')
   });
 
-}).call(this);
+

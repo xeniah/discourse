@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.UserActionGroup = Discourse.Model.extend({
     push: function(item) {
       if (!this.items) {
@@ -9,4 +7,4 @@
     }
   });
 
-}).call(this);
+

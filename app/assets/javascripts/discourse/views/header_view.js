@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.HeaderView = Discourse.View.extend({
     tagName: 'header',
     classNames: ['d-header', 'clearfix'],
@@ -116,4 +114,4 @@
     }
   });
 
-}).call(this);
+

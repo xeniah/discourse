@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Handles routes related to customization
 
@@ -18,4 +16,4 @@
     }
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ArchetypeOptionsView = Em.ContainerView.extend({
     metaDataBinding: 'parentView.metaData',
     init: function() {
@@ -21,4 +19,4 @@
     }
   });
 
-}).call(this);
+

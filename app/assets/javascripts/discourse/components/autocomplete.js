@@ -1,5 +1,3 @@
-(function() {
-
   (function($) {
     var template;
     template = null;
@@ -310,4 +308,4 @@
     return $.fn.autocomplete;
   })(jQuery);
 
-}).call(this);
+

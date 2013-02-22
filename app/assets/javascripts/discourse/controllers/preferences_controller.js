@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.PreferencesController = Ember.ObjectController.extend(Discourse.Presence, {
     /* By default we haven't saved anything
     */
@@ -143,4 +141,4 @@
     }
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ComboboxViewCategory = Discourse.ComboboxView.extend({
     none: 'category.none',
     dataAttributes: ['color'],
@@ -11,4 +9,4 @@
     }
   });
 
-}).call(this);
+

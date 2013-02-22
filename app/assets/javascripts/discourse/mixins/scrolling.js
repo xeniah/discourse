@@ -3,8 +3,6 @@
 */
 
 
-(function() {
-
   window.Discourse.Scrolling = Em.Mixin.create({
     bindScrolling: function() {
       var onScroll,
@@ -21,4 +19,4 @@
     }
   });
 
-}).call(this);
+

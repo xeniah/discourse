@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.StaticController = Ember.Controller.extend({
     content: null,
     loadPath: function(path) {
@@ -29,4 +27,4 @@
     pages: ['faq', 'tos', 'privacy']
   });
 
-}).call(this);
+

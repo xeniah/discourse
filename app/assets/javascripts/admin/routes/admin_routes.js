@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Declare all the routes used in the admin section.
   **/
@@ -28,4 +26,4 @@
     });
   });
 
-}).call(this);
+

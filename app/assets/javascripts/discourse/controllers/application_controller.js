@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ApplicationController = Ember.Controller.extend({
     needs: ['modal'],
     showLogin: function() {
@@ -8,4 +6,4 @@
     }
   });
 
-}).call(this);
+

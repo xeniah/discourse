@@ -1,7 +1,5 @@
 /*global HANDLEBARS_TEMPLATES:true*/
 
-(function() {
-
   Discourse.BBCode = {
     QUOTE_REGEXP: /\[quote=([^\]]*)\]([\s\S]*?)\[\/quote\]/im,
     /* Define our replacers
@@ -219,4 +217,4 @@
     }
   };
 
-}).call(this);
+

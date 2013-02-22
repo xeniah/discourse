@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.TopicPostsView = Em.CollectionView.extend({
     itemViewClass: Discourse.PostView,
     didInsertElement: function() {
@@ -7,4 +5,4 @@
     }
   });
 
-}).call(this);
+

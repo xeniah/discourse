@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.buildRoutes(function() {
     var router = this;
 
@@ -47,4 +45,4 @@
     });
   });
 
-}).call(this);
+

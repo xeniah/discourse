@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ExcerptCategoryView = Discourse.View.extend({
     editCategory: function() {
       var cat, _ref;
@@ -41,4 +39,4 @@
     }
   });
 
-}).call(this);
+

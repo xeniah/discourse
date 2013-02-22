@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.Draft = Discourse.Model.extend({});
 
   Discourse.Draft.reopenClass({
@@ -77,4 +75,4 @@
     }
   });
 
-}).call(this);
+

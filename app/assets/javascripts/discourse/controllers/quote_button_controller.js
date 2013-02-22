@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.QuoteButtonController = Discourse.Controller.extend({
     needs: ['topic', 'composer'],
     started: null,
@@ -83,4 +81,4 @@
     }
   });
 
-}).call(this);
+

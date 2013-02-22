@@ -3,8 +3,6 @@
 */
 
 
-(function() {
-
   window.Discourse.KeyValueStore = (function() {
     var context, initialized;
     initialized = false;
@@ -47,4 +45,4 @@
     };
   })();
 
-}).call(this);
+

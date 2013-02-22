@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Our data model for determining whether there's a new version of Discourse
 
@@ -36,4 +34,4 @@
     }
   });
 
-}).call(this);
+

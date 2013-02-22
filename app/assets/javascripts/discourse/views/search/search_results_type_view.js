@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.SearchResultsTypeView = Ember.CollectionView.extend({
     tagName: 'ul',
     itemViewClass: Ember.View.extend({
@@ -21,4 +19,4 @@
     })
   });
 
-}).call(this);
+

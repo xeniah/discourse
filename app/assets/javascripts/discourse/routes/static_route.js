@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.StaticController.pages.forEach(function(page) {
     window.Discourse["" + (page.capitalize()) + "Route"] = Discourse.Route.extend({
       renderTemplate: function() {
@@ -11,4 +9,4 @@
     });
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.Invite = Discourse.Model.extend({
     rescind: function() {
       jQuery.ajax('/invites', {
@@ -23,4 +21,4 @@
     }
   });
 
-}).call(this);
+

@@ -7,8 +7,6 @@
 */
 
 
-(function() {
-
   window.Discourse.Lightbox = {
     apply: function($elem) {
       var _this = this;
@@ -20,4 +18,4 @@
     }
   };
 
-}).call(this);
+

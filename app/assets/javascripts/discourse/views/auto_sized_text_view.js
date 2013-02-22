@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.AutoSizedTextView = Discourse.View.extend({
     render: function(buffer) {
       return null;
@@ -21,4 +19,4 @@
     }
   });
 
-}).call(this);
+

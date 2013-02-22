@@ -2,8 +2,6 @@
 
 /* Helper object for syntax highlighting. Uses highlight.js which is loaded
    on demand. */
-(function() {
-
   window.Discourse.SyntaxHighlighting = {
     apply: function($elem) {
       var _this = this;
@@ -15,4 +13,4 @@
     }
   };
 
-}).call(this);
+

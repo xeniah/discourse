@@ -1,5 +1,3 @@
-(function() {
-
   /**
     A base object we can use to handle models in the Discourse client application.
 
@@ -77,4 +75,4 @@
     }
   });
 
-}).call(this);
+

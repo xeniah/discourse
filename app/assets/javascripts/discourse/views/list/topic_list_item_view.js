@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.TopicListItemView = Discourse.View.extend({
     tagName: 'tr',
     templateName: 'list/topic_list_item',
@@ -34,4 +32,4 @@
     }
   });
 
-}).call(this);
+

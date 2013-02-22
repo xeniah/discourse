@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Handles routes related to viewing and editing site settings.
 
@@ -18,4 +16,4 @@
     }    
   });
 
-}).call(this);
+

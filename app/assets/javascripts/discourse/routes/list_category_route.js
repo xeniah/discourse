@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ListCategoryRoute = Discourse.FilteredListRoute.extend({
     setupController: function(controller, model) {
       var category, listController, slug, urlId,
@@ -29,4 +27,4 @@
     }
   });
 
-}).call(this);
+

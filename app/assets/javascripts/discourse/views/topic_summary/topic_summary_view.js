@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.TopicSummaryView = Ember.ContainerView.extend(Discourse.Presence, {
     topicBinding: 'controller.content',
     classNameBindings: ['hidden', ':topic-summary'],
@@ -85,4 +83,4 @@
     }
   });
 
-}).call(this);
+

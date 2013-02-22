@@ -1,5 +1,3 @@
-(function() {
-
   /**
     A modal view for editing the basic aspects of a category
 
@@ -69,4 +67,4 @@
 
   });
 
-}).call(this);
+

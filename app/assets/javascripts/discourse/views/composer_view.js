@@ -1,6 +1,4 @@
 /*global Markdown:true assetPath:true */
-(function() {
-
   window.Discourse.ComposerView = Discourse.View.extend({
     templateName: 'composer',
     elementId: 'reply-control',
@@ -384,4 +382,4 @@
 
   RSVP.EventTarget.mixin(Discourse.ComposerView);
 
-}).call(this);
+

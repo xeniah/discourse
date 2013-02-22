@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Basic route for admin flags
 
@@ -14,4 +12,4 @@
     }
   });
 
-}).call(this);
+

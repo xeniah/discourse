@@ -3,7 +3,7 @@
 */
 
 
-(function() {
+
   var CLOSED, CREATE_TOPIC, DRAFT, EDIT, OPEN, PRIVATE_MESSAGE, REPLY, REPLY_AS_NEW_TOPIC_KEY, SAVING;
 
   CLOSED = 'closed';
@@ -563,4 +563,4 @@
     REPLY_AS_NEW_TOPIC_KEY: REPLY_AS_NEW_TOPIC_KEY
   });
 
-}).call(this);
+

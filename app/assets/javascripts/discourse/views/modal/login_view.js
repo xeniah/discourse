@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.LoginView = Discourse.ModalBodyView.extend({
     templateName: 'modal/login',
     siteBinding: 'Discourse.site',
@@ -137,4 +135,4 @@
 
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.CategoryList = Discourse.Model.extend({});
 
   window.Discourse.CategoryList.reopenClass({
@@ -38,4 +36,4 @@
     }
   });
 
-}).call(this);
+

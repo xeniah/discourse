@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.QuoteButtonView = Discourse.View.extend({
     classNames: ['quote-button'],
     classNameBindings: ['hasBuffer'],
@@ -37,4 +35,4 @@
     }
   });
 
-}).call(this);
+

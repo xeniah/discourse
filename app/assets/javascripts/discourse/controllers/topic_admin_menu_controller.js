@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.TopicAdminMenuController = Ember.ObjectController.extend({
     visible: false,
     show: function() {
@@ -10,4 +8,4 @@
     }
   });
 
-}).call(this);
+

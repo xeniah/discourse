@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.ListCategoriesController = Ember.ObjectController.extend(Discourse.Presence, {
     needs: ['modal'],
     categoriesEven: (function() {
@@ -31,4 +29,4 @@
     }).property()
   });
 
-}).call(this);
+

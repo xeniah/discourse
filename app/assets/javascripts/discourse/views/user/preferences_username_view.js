@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.PreferencesUsernameView = Discourse.View.extend({
     templateName: 'user/username',
     classNames: ['user-preferences'],
@@ -18,4 +16,4 @@
     }
   });
 
-}).call(this);
+

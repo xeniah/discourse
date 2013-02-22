@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.TopicList = Discourse.Model.extend({
     loadMoreTopics: function() {
       var moreUrl, promise,
@@ -116,4 +114,4 @@
     }
   });
 
-}).call(this);
+

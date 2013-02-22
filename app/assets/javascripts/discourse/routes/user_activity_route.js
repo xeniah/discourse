@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.UserActivityRoute = Discourse.Route.extend({
     renderTemplate: function() {
       return this.render({
@@ -15,4 +13,4 @@
     }
   });
 
-}).call(this);
+

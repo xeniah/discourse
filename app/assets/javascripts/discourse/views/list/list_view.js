@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ListView = Discourse.View.extend({
     templateName: 'list/list',
     composeViewBinding: Ember.Binding.oneWay('Discourse.composeView'),
@@ -23,4 +21,4 @@
     }).property('controller.category.name')
   });
 
-}).call(this);
+

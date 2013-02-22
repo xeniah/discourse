@@ -1,7 +1,5 @@
 // Create the topic list filtered routes
 
-(function() {
-
   window.Discourse.FilteredListRoute = Discourse.Route.extend({
     exit: function() {
       var listController;
@@ -40,4 +38,4 @@
     });
   });
 
-}).call(this);
+

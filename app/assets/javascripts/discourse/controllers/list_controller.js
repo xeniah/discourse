@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.ListController = Ember.Controller.extend(Discourse.Presence, {
     currentUserBinding: 'Discourse.currentUser',
     categoriesBinding: 'Discourse.site.categories',
@@ -94,4 +92,4 @@
     filters: ['popular', 'favorited', 'read', 'unread', 'new', 'posted']
   });
 
-}).call(this);
+

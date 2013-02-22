@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ExcerptPostView = Discourse.View.extend({
     mute: function() {
       return this.update(true);
@@ -27,4 +25,4 @@
     }
   });
 
-}).call(this);
+

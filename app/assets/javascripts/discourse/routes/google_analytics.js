@@ -1,7 +1,5 @@
 /*global _gaq:true */
 
-(function() {
-
   Ember.Route.reopen({
     setup: function(router, context) {
       var path;
@@ -23,4 +21,4 @@
     }
   });
 
-}).call(this);
+

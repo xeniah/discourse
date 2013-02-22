@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Handles routes related to viewing email logs.
 
@@ -18,4 +16,4 @@
     }
   });
 
-}).call(this);
+

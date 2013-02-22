@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ModalBodyView = Discourse.View.extend({
     // Focus on first element
     didInsertElement: function() {
@@ -26,4 +24,4 @@
     }
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ActionSummary = Discourse.Model.extend({
     /* Description for the action
     */
@@ -120,4 +118,4 @@
     }
   });
 
-}).call(this);
+

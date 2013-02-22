@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.Mention = (function() {
     var cache, load, localCache, lookup, lookupCache;
     localCache = {};
@@ -51,4 +49,4 @@
     };
   })();
 
-}).call(this);
+

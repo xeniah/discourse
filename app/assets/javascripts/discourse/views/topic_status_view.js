@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.TopicStatusView = Discourse.View.extend({
     classNames: ['topic-statuses'],
     hasDisplayableStatus: (function() {
@@ -45,4 +43,4 @@
     }
   });
 
-}).call(this);
+

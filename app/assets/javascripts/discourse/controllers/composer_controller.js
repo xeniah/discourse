@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ComposerController = Ember.Controller.extend(Discourse.Presence, {
     needs: ['modal', 'topic'],
     hasReply: false,
@@ -258,4 +256,4 @@
     }
   });
 
-}).call(this);
+

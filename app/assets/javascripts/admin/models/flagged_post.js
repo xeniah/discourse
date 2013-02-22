@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Our data model for interacting with flagged posts.
 
@@ -121,4 +119,4 @@
     }
   });
 
-}).call(this);
+

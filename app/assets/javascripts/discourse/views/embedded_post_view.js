@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.EmbeddedPostView = Discourse.View.extend({
     templateName: 'embedded_post',
     classNames: ['reply'],
@@ -10,4 +8,4 @@
     }
   });
 
-}).call(this);
+

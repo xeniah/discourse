@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.UserView = Discourse.View.extend({
     templateName: 'user/user',
     userBinding: 'controller.content',
@@ -12,4 +10,4 @@
     }).observes('user.loaded', 'user.username')
   });
 
-}).call(this);
+

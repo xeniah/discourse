@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ParentView = Discourse.EmbeddedPostView.extend({
     previousPost: true,
     
@@ -18,4 +16,4 @@
     }
   });
 
-}).call(this);
+

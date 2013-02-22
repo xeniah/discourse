@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.ShareController = Ember.Controller.extend({
     /* When the user clicks the post number, we pop up a share box
     */
@@ -26,4 +24,4 @@
     }
   });
 
-}).call(this);
+

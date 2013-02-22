@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.PreferencesUsernameRoute = Discourse.RestrictedUserRoute.extend({
     renderTemplate: function() {
       return this.render({
@@ -15,4 +13,4 @@
     }
   });
 
-}).call(this);
+

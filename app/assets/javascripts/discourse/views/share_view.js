@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ShareView = Discourse.View.extend({
     templateName: 'share',
     elementId: 'share-link',
@@ -60,4 +58,4 @@
     }
   });
 
-}).call(this);
+

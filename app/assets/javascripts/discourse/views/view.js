@@ -1,5 +1,3 @@
-(function() {
-
   /**
     A base view that gives us common functionality, for example `present` and `blank`
 
@@ -13,4 +11,4 @@
     
   });
 
-}).call(this);
+

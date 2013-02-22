@@ -190,4 +190,5 @@
   });
 
   Ember.Location.registerImplementation('discourse_location', Ember.DiscourseLocation);
-}).call(this);
+
+})(this);

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.RepliesView = Ember.CollectionView.extend({
     templateName: 'replies',
     tagName: 'section',
@@ -20,4 +18,4 @@
     }).observes('parentView.repliesShown')
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.UserStreamView = Discourse.View.extend(Discourse.Scrolling, {
     templateName: 'user/stream',
     currentUserBinding: 'Discourse.currentUser',
@@ -42,4 +40,4 @@
     }
   });
 
-}).call(this);
+

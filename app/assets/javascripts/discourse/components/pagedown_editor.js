@@ -1,7 +1,5 @@
 /*global Markdown:true*/
 
-(function() {
-
   window.Discourse.PagedownEditor = Ember.ContainerView.extend({
     elementId: 'pagedown-editor',
     init: function() {
@@ -35,4 +33,4 @@
     }
   });
 
-}).call(this);
+

@@ -1,6 +1,6 @@
 /*global sanitizeHtml:true Markdown:true */
 
-(function() {
+
   var baseUrl, site;
 
   baseUrl = null;
@@ -274,4 +274,4 @@
 
   RSVP.EventTarget.mixin(Discourse.Utilities);
 
-}).call(this);
+

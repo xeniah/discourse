@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.Topic = Discourse.Model.extend({
     categoriesBinding: 'Discourse.site.categories',
     fewParticipants: (function() {
@@ -465,4 +463,4 @@
     }
   });
 
-}).call(this);
+

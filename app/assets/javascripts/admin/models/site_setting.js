@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Our data model for interacting with site settings.
 
@@ -62,4 +60,4 @@
     }
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   /**
     The base admin route for all routes on Discourse. Includes global enter functionality.
 
@@ -29,4 +27,4 @@
     }
   });
 
-}).call(this);
+

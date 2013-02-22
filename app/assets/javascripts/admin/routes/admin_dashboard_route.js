@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Handles the default admin route
 
@@ -23,4 +21,4 @@
     }
   });
 
-}).call(this);
+

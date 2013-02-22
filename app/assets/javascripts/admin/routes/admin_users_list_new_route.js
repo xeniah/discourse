@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Handles the route that lists new users.
 
@@ -14,4 +12,4 @@
     }  
   });
 
-}).call(this);
+

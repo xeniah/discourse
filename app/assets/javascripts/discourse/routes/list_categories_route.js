@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ListCategoriesRoute = Discourse.Route.extend({
     exit: function() {
       this._super();
@@ -23,4 +21,4 @@
     }
   });
 
-}).call(this);
+

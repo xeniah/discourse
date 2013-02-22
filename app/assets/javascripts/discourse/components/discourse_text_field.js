@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.TextField = Ember.TextField.extend({
     attributeBindings: ['autocorrect', 'autocapitalize'],
     placeholder: (function() {
@@ -7,4 +5,4 @@
     }).property('placeholderKey')
   });
 
-}).call(this);
+

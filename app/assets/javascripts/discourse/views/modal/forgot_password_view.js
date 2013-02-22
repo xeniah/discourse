@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ForgotPasswordView = Discourse.ModalBodyView.extend({
     templateName: 'modal/forgot_password',
     title: Em.String.i18n('forgot_password.title'),
@@ -21,4 +19,4 @@
     }
   });
 
-}).call(this);
+

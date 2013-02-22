@@ -15,8 +15,6 @@
 */
 
 
-(function() {
-
   Discourse.Eyeline = (function() {
 
     function Eyeline(selector) {
@@ -126,4 +124,4 @@
 
   RSVP.EventTarget.mixin(Discourse.Eyeline.prototype);
 
-}).call(this);
+

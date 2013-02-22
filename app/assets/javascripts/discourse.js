@@ -1,5 +1,5 @@
 /*global Modernizr:true*/
-(function() {
+
   var csrf_token;
 
   window.Discourse = Ember.Application.createWithMixins({
@@ -374,4 +374,4 @@
     }
   });
 
-}).call(this);
+

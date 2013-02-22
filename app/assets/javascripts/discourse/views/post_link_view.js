@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.PostLinkView = Discourse.View.extend({
     tagName: 'li',
     classNameBindings: ['direction'],
@@ -21,4 +19,4 @@
     }
   });
 
-}).call(this);
+

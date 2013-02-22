@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ExcerptUserView = Discourse.View.extend({
     privateMessage: function(e) {
       var $target, composerController, post, postView, url, username;
@@ -23,4 +21,4 @@
     }
   });
 
-}).call(this);
+

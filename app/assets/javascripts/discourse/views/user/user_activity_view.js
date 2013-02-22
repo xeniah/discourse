@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.UserActivityView = Discourse.View.extend({
     templateName: 'user/activity',
     currentUserBinding: 'Discourse.currentUser',
@@ -9,4 +7,4 @@
     }
   });
 
-}).call(this);
+

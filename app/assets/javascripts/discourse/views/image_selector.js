@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ImageSelectorView = Discourse.View.extend({
     templateName: 'image_selector',
     classNames: ['image-selector'],
@@ -29,4 +27,4 @@
     }
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.FlagView = Discourse.ModalBodyView.extend({
     templateName: 'flag',
     title: Em.String.i18n('flagging.title'),
@@ -80,4 +78,4 @@
     }
   });
 
-}).call(this);
+

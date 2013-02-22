@@ -1,5 +1,3 @@
-(function() {
-
   /**
     Handles routes related to users in the admin section.
 
@@ -19,4 +17,4 @@
 
   });
 
-}).call(this);
+

@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ListCategoriesView = Discourse.View.extend({
     templateName: 'list/categories',
     didInsertElement: function() {
@@ -7,4 +5,4 @@
     }
   });
 
-}).call(this);
+

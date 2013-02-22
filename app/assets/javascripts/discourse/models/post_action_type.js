@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.PostActionType = Discourse.Model.extend({
     alsoName: (function() {
       if (this.get('is_flag')) {
@@ -13,4 +11,4 @@
     }).property('alsoName')
   });
 
-}).call(this);
+

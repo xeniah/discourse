@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.TopicFooterButtonsView = Ember.ContainerView.extend({
     elementId: 'topic-footer-buttons',
     topicBinding: 'controller.content',
@@ -95,6 +93,7 @@
                     return 'muted';
                 }
               }).call(this);
+              
               icon = (function() {
                 switch (key) {
                   case 'watching':
@@ -135,4 +134,4 @@
     }
   });
 
-}).call(this);
+

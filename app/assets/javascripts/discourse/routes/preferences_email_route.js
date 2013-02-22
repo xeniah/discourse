@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.PreferencesEmailRoute = Discourse.RestrictedUserRoute.extend({
     renderTemplate: function() {
       return this.render({
@@ -12,4 +10,4 @@
     }
   });
 
-}).call(this);
+

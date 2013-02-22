@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.Notification = Discourse.Model.extend({
     readClass: (function() {
       if (this.read) {
@@ -37,4 +35,4 @@
     }
   });
 
-}).call(this);
+

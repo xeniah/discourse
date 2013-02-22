@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ExcerptView = Ember.ContainerView.extend({
     classNames: ['excerpt-view'],
     classNameBindings: ['position', 'size'],
@@ -182,4 +180,4 @@
     */      
   });
 
-}).call(this);
+

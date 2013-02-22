@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ModalView = Ember.ContainerView.extend({
     childViews: ['modalHeaderView', 'modalBodyView', 'modalErrorsView'],
     classNames: ['modal', 'hidden'],
@@ -28,4 +26,4 @@
     }).observes('controller.currentView')
   });
 
-}).call(this);
+

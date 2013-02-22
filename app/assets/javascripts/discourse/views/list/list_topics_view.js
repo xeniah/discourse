@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ListTopicsView = Discourse.View.extend(Discourse.Scrolling, {
     templateName: 'list/topics',
     categoryBinding: 'Discourse.router.listController.category',
@@ -94,4 +92,4 @@
     }).property('allLoaded', 'controller.content.topics.length')
   });
 
-}).call(this);
+

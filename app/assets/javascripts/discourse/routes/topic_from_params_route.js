@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.TopicFromParamsRoute = Discourse.Route.extend({
     setupController: function(controller, params) {
       var topicController;
@@ -11,4 +9,4 @@
     }
   });
 
-}).call(this);
+

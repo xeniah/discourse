@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.TopicController = Ember.ObjectController.extend(Discourse.Presence, {
     /* A list of usernames we want to filter by
     */
@@ -416,4 +414,4 @@
     }
   });
 
-}).call(this);
+

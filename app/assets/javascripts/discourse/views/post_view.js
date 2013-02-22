@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.PostView = Discourse.View.extend({
     classNames: ['topic-post', 'clearfix'],
     templateName: 'post',
@@ -295,4 +293,4 @@
     }
   });
 
-}).call(this);
+

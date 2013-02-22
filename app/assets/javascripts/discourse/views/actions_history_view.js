@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.ActionsHistoryView = Discourse.View.extend({
     tagName: 'section',
     classNameBindings: [':post-actions', 'hidden'],
@@ -79,4 +77,4 @@
     }
   });
 
-}).call(this);
+

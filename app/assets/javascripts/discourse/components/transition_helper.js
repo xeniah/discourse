@@ -11,7 +11,7 @@
 */
 
 
-(function() {
+
   var dummy, eventNameHash, transitionEnd, _getTransitionEndEventName;
 
   dummy = document.createElement("div");
@@ -42,4 +42,4 @@
     }
   };
 
-}).call(this);
+

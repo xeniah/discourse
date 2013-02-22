@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.NavItemView = Discourse.View.extend({
     tagName: 'li',
     classNameBindings: ['isActive', 'content.hasIcon:has-icon'],
@@ -50,4 +48,4 @@
     }
   });
 
-}).call(this);
+

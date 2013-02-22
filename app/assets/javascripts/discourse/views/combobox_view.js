@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.ComboboxView = Discourse.View.extend({
     tagName: 'select',
     classNames: ['combobox'],
@@ -40,4 +38,4 @@
     }
   });
 
-}).call(this);
+

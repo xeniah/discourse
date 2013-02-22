@@ -1,6 +1,4 @@
 /*global Mousetrap:true */
-(function() {
-
   /**
     A view to handle site customizations
 
@@ -48,4 +46,4 @@
     
   });
 
-}).call(this);
+

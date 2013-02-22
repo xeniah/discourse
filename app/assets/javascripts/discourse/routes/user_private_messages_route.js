@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.UserPrivateMessagesRoute = Discourse.RestrictedUserRoute.extend({
     renderTemplate: function() {
       return this.render({
@@ -25,4 +23,4 @@
     }
   });
 
-}).call(this);
+

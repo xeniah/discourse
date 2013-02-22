@@ -1,5 +1,3 @@
-(function() {
-
   Discourse.ListTopicsController = Ember.ObjectController.extend({
     needs: ['list', 'composer'],
     /* If we're changing our channel
@@ -70,4 +68,4 @@
     }
   });
 
-}).call(this);
+

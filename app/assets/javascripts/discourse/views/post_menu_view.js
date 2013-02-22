@@ -11,8 +11,6 @@
 */
 
 
-(function() {
-
   window.Discourse.PostMenuView = Discourse.View.extend({
     tagName: 'section',
     classNames: ['post-menu-area', 'clearfix'],
@@ -190,4 +188,4 @@
     }
   });
 
-}).call(this);
+

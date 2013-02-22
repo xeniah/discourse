@@ -1,5 +1,3 @@
-(function() {
-
   window.Discourse.InviteList = Discourse.Model.extend({
     empty: (function() {
       return this.blank('pending') && this.blank('redeemed');
@@ -33,4 +31,4 @@
     }
   });
 
-}).call(this);
+

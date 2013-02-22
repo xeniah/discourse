@@ -1,5 +1,3 @@
-(function() {
-
   /**
     The default view in the admin section
 
@@ -30,4 +28,4 @@
     }.property('controller.versionCheck.critical_updates')
   });
 
-}).call(this);
+
