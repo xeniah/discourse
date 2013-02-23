@@ -1,8 +1,8 @@
 defaults: &defaults
-  host: localhost
-  port: 6379
-  db: 0
-  cache_db: 2
+  host: "barreleye.redistogo.com"
+  password: "537f90af7561b140f024c6c76ed4e64f"
+  port: 9999
+  
 
 development:
   <<: *defaults
@@ -16,27 +16,4 @@ staging:
 
 production:
   <<: *defaults
-  
-   #  
-   # redis://redistogo:537f90af7561b140f024c6c76ed4e64f@barreleye.redistogo.com:9999/
-   # +New:  
-   # 
-   #    42  
-   # 
-   # +`defaults: &defaults    
-   # 
-   #    43  
-   # 
-   # +     host: "dory.redistogo.com"  
-   # 
-   #    44  
-   # 
-   # +    password: "0dd02cef32ebadd4a65de872d3643b0b"  
-   # 
-   #    45  
-   # 
-   # +    port: 9823  
-   # 
-   #    46  
-
   
