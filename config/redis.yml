@@ -1,8 +1,7 @@
 defaults: &defaults
   host: "barreleye.redistogo.com"
-  password: "537f90af7561b140f024c6c76ed4e64f"
-  port: 9999
-  
+  password: "5d3778bf00753ad1003b3fa71983b43a"
+  port: 10024
 
 development:
   <<: *defaults
