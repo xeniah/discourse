@@ -26,5 +26,5 @@ production:
   database: discourse_development
   pool: 5
   timeout: 5000
-  host_names:
-    - production.localhost
+  username: discourse
+  password: pugetworks

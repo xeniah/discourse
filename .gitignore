@@ -10,7 +10,7 @@ tags
 ._.DS_Store
 dump.rdb
 
-.sass-cache/*
+#.sass-cache/*
 
 # Ignore bundler config
 /.bundle
